@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2020.6" exportTime="Tue Jul 14 19:00:15 BST 2020">
+  <item>
+    <time>Tue Jul 14 18:46:34 BST 2020</time>
+    <url><![CDATA[https://ws-search-app.city-mobil.ru/v2/reversegeocode?latitude=zxxzx&longitude=96.47079471498728&max_pl_count=1&show_pl_address=false&point_source=user&is_first=false]]></url>
+    <host ip="91.231.114.23">ws-search-app.city-mobil.ru</host>
+    <port>443</port>
+    <protocol>https</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/v2/reversegeocode?latitude=zxxzx&longitude=96.47079471498728&max_pl_count=1&show_pl_address=false&point_source=user&is_first=false]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC92Mi9yZXZlcnNlZ2VvY29kZT9sYXRpdHVkZT16eHh6eCZsb25naXR1ZGU9OTYuNDcwNzk0NzE0OTg3MjgmbWF4X3BsX2NvdW50PTEmc2hvd19wbF9hZGRyZXNzPWZhbHNlJnBvaW50X3NvdXJjZT11c2VyJmlzX2ZpcnN0PWZhbHNlIEhUVFAvMS4xDQpVc2VyLUFnZW50OiBDTVJpZGVyLzQuNDguMS44MTQgKEFuZHJvaWQgMTA7IE9uZVBsdXMgSEQxOTAxOyBPbmVQbHVzN1QpDQpDTS1BcHAtT3MtTmFtZTogQW5kcm9pZA0KQ00tQXBwLVZlcnNpb246IDQuNDguMS44MTQNCkNNLUFwcC1Pcy1WZXJzaW9uOiAxMA0KQ00tQXBwLU9zLUFuZHJvaWQtQXBpLVZlcnNpb246IDI5DQpDTS1EZXZpY2UtVGltZTogMjAyMC0wNy0xNFQwNjowNDo0Mi43ODcrMDY6MDANCkNNLURldmljZTogNWMwNjNjMWFhZjJiNzYwNQ0KQ00tVXNlcjogOWQxMzI5NjE0MjNlZDRmMDZhMmUxNGVkYzE0YzMzNDkNCkNNLUF1dGgtVG9rZW46IENMSTViMGI3YWJiYmYwMTYyYzE0NjRhNWY0NjFkNzE4MTU2DQpDTS1TZXNzaW9uOiBkZWMyODRlNi0zYmU5LTQ2YTEtYTcwOC03MzM0OWU1MWYyZGYNCkNNLU5vdGlmaWNhdGlvbi1Ub2tlbjogZWl3R1dFUkF2X0E6QVBBOTFiR2hFMkw2dlhtQTZjTTI0V3RGcDZERnh0aE41N2VnaUdZQzZ4WFMzaURXaHhQdHZfUndtVi12djg2TjFCSFA3bGg3S0hRVi1zTHBYTTNFTlU0V3lJVVlENjdRZEt3UWpHUk41M05MeVNBQ2xPTGhGTkNVUktfdXgwbWk3TDI4WGhYYkRtNEwNCkhvc3Q6IHdzLXNlYXJjaC1hcHAuY2l0eS1tb2JpbC5ydQ0KQ29ubmVjdGlvbjogY2xvc2UNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KDQo=]]></request>
+    <status>400</status>
+    <responselength>588</responselength>
+    <mimetype>JSON</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgNDAwIEJhZCBSZXF1ZXN0DQpTZXJ2ZXI6IG5naW54DQpEYXRlOiBUdWUsIDE0IEp1bCAyMDIwIDE3OjQ2OjM4IEdNVA0KQ29udGVudC1UeXBlOiBhcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04DQpDb250ZW50LUxlbmd0aDogMTE2DQpDb25uZWN0aW9uOiBjbG9zZQ0KQWNjZXNzLUNvbnRyb2wtQWxsb3ctSGVhZGVyczogQWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcywgQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luLCBBY2Nlc3MtQ29udHJvbC1BbGxvdy1IZWFkZXJzLCBDTS1EZXZpY2UsIFVzZXItQWdlbnQsIENNLVNlc3Npb24sIENNLUFwcC1Pcy1OYW1lLCBDTS1BcHAtT3MtVmVyc2lvbiwgQ00tQXBwLVZlcnNpb24sIENNLVVzZXIsIENNLUF1dGgtVG9rZW4NCkFjY2Vzcy1Db250cm9sLUFsbG93LU1ldGhvZHM6IEdFVCwgT1BUSU9OUw0KQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luOiAqDQoNCnsiZXJyb3JzIjpbeyJjb2RlIjoxMDAwMTAwLCJtZXNzYWdlIjoiaW5jb3JyZWN0IGxhdGl0dWRlOiBzdHJjb252LlBhcnNlRmxvYXQ6IHBhcnNpbmcgXCJ6eHh6eFwiOiBpbnZhbGlkIHN5bnRheCJ9XX0K]]></response>
+    <comment></comment>
+  </item>
+</items>
